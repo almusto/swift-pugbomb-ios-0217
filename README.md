@@ -1,5 +1,16 @@
 ### MultiPugBomb
 
+
+#### Readings
+
+* [Apple Doc Operation Queues](https://developer.apple.com/reference/dispatchl)
+* [Grand Central Dispatch Tutorial](http://www.appcoda.com/grand-central-dispatch/)
+* [GCD in Dept Part 1](https://www.raywenderlich.com/60749/grand-central-dispatch-in-depth-part-1)
+* [How to create a dispatch queue](http://stackoverflow.com/questions/37805885/how-to-create-dispatch-queue-in-swift-3)
+
+
+### Objective
+
 Your objective is to create an app that loads 100 pugs into a `CollectionViewController`. You will be using an awesome api created here at Flatiron that grabs one random pug for each call.
 
 API : `http://pugme.herokuapp.com/random`
@@ -21,3 +32,5 @@ Included in this lab is a UIImage extension that will allow you to filter images
 This app should allow a user to double tap on a cell and then swap out the image for a new filtered image.
 
 *Hint* This may require a property on the cell that holds onto the UIImage. Ask an instructor if you are unsure.
+
+
