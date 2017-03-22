@@ -17,6 +17,8 @@ API : `http://pugme.herokuapp.com/random`
 
 Once the api is called, the image must then be downloaded and added to the imageview. Make the imageView the width of the container. The design should look something like this.
 
+![](https://s3-us-west-2.amazonaws.com/curriculum-content/ios/NSOperation/Screen+Shot+2017-03-21+at+4.23.23+PM.png)
+
 
 ### Note
 Do not use Alamofire or SwiftyJSON or any third partner frameworks. They come with some build in multithreading which defeat the purpose of this lab. There are several ways to solve this problem but the objective is for it to load smoothly.
