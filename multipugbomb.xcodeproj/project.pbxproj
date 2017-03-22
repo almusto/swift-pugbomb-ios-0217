@@ -14,6 +14,8 @@
 		8FE03CA91E81B7F600E99C4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE03CA71E81B7F600E99C4B /* LaunchScreen.storyboard */; };
 		8FE03CBF1E81B93C00E99C4B /* PugViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE03CBE1E81B93C00E99C4B /* PugViewCell.swift */; };
 		8FE03CC11E81C46900E99C4B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE03CC01E81C46900E99C4B /* Extensions.swift */; };
+		AA81FD0D1E82CDC000C342FA /* PugsAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA81FD0C1E82CDC000C342FA /* PugsAPIClient.swift */; };
+		AA81FD0F1E82D55A00C342FA /* ImageDownloadHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA81FD0E1E82D55A00C342FA /* ImageDownloadHandler.swift */; };
 		DA626B068FAEF294B5C8BAA8 /* Pods_multipugbomb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC6AB5B04AEF6F7FA61A78D /* Pods_multipugbomb.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +32,8 @@
 		8FE03CAA1E81B7F600E99C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FE03CBE1E81B93C00E99C4B /* PugViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PugViewCell.swift; sourceTree = "<group>"; };
 		8FE03CC01E81C46900E99C4B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AA81FD0C1E82CDC000C342FA /* PugsAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PugsAPIClient.swift; sourceTree = "<group>"; };
+		AA81FD0E1E82D55A00C342FA /* ImageDownloadHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloadHandler.swift; sourceTree = "<group>"; };
 		D55C639D7D3E99B294425A33 /* Pods-multipugbombTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multipugbombTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-multipugbombTests/Pods-multipugbombTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEC6AB5B04AEF6F7FA61A78D /* Pods_multipugbomb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_multipugbomb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD1385552A39ED30CC1973E /* Pods_multipugbombTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_multipugbombTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +94,8 @@
 			children = (
 				8FE03C9E1E81B7F600E99C4B /* AppDelegate.swift */,
 				8FE03CA01E81B7F600E99C4B /* ViewController.swift */,
+				AA81FD0C1E82CDC000C342FA /* PugsAPIClient.swift */,
+				AA81FD0E1E82D55A00C342FA /* ImageDownloadHandler.swift */,
 				8FE03CC01E81C46900E99C4B /* Extensions.swift */,
 				8FE03CBE1E81B93C00E99C4B /* PugViewCell.swift */,
 				8FE03CA21E81B7F600E99C4B /* Main.storyboard */,
@@ -224,10 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA81FD0F1E82D55A00C342FA /* ImageDownloadHandler.swift in Sources */,
 				8FE03CA11E81B7F600E99C4B /* ViewController.swift in Sources */,
 				8FE03C9F1E81B7F600E99C4B /* AppDelegate.swift in Sources */,
 				8FE03CBF1E81B93C00E99C4B /* PugViewCell.swift in Sources */,
 				8FE03CC11E81C46900E99C4B /* Extensions.swift in Sources */,
+				AA81FD0D1E82CDC000C342FA /* PugsAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
